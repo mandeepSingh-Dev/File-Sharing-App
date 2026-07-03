@@ -1,118 +1,195 @@
-# 📂 File Sharing Clone
+# 🚀📂 File Sharing Clone
 
-A modern Android application that enables users to seamlessly share **photos, videos, documents, APKs, folders, and other files** between nearby devices. Built with **Kotlin** following **MVVM Architecture**, the application leverages **Wi-Fi Direct (Wi-Fi P2P)** and **Bluetooth** to deliver a fast, reliable, and intuitive offline file-sharing experience.
+> ⚡ A modern Android file-sharing application that enables seamless **offline** transfer of **Photos 📷 • Videos 🎥 • Documents 📄 • APKs 📦 • Audio 🎵 • Folders 📁** and more between nearby devices using **📡 Wi-Fi Direct (Wi-Fi P2P)** and **🔵 Bluetooth**.
 
----
+<p align="center">
 
-# ✨ Features
+📷 ➜ 📱 ➜ 📡 ➜ 📱 ➜ 📂
 
-* 📷 Share Photos
-* 🎥 Share Videos
-* 📄 Share Documents
-* 📦 Share APK Files
-* 📁 Share Entire Folders
-* 📂 Transfer Multiple Files Simultaneously
-* 📡 **Wi-Fi Direct (Wi-Fi P2P)** based high-speed file transfer
-* 🔵 **Bluetooth** device discovery and pairing support
-* 📍 Automatic **Location Services** detection and handling
-* 📶 Automatic **Wi-Fi ON/OFF** state detection
-* 🔄 Automatic network state monitoring
-* 🔍 Nearby device discovery
-* 📊 Real-time transfer progress
-* ⚡ Fast, secure and reliable file transfer
-* 📱 Clean and intuitive Material Design UI
+**Fast • Secure • Offline • Reliable**
+
+</p>
 
 ---
 
-# 🛠️ Tech Stack
+## ✨ Features
 
-* 💙 Kotlin
-* 🏗️ MVVM Architecture
-* 💉 Dagger Hilt
-* 🧵 Kotlin Coroutines
-* 📡 Wi-Fi Direct (Wi-Fi P2P)
-* 🔵 Bluetooth API
-* 📍 Android Location Services
-* 📶 ConnectivityManager
-* 📂 Storage Access Framework (SAF)
-* 📦 Android Jetpack Components
-* 🎨 Material Design
+✅ 📷 Share Photos
 
----
+✅ 🎥 Share Videos
 
-# 📱 Application Workflow
+✅ 🎵 Share Audio Files
 
-1. Enable the required connectivity services.
-2. Discover nearby devices using Bluetooth or Wi-Fi Direct.
-3. Establish a secure connection between devices.
-4. Select one or multiple files or folders.
-5. Transfer files with real-time progress updates.
-6. Automatically manage connectivity state changes for a seamless experience.
+✅ 📄 Share Documents (PDF, DOCX, XLSX, etc.)
 
----
+✅ 📦 Share APK Files
 
-# 🚀 Highlights
+✅ 📁 Share Complete Folders
 
-* ✅ Wi-Fi Direct (P2P) File Sharing
-* ✅ Bluetooth Device Discovery
-* ✅ Folder & Multi-file Transfer
-* ✅ Automatic Wi-Fi State Detection
-* ✅ Automatic Location Service Detection
-* ✅ Nearby Device Discovery
-* ✅ Real-time Transfer Progress
-* ✅ Clean MVVM Architecture
-* ✅ Modern Android Development Practices
-* ✅ Optimized Performance & Reliable Connectivity
+✅ 📂 Transfer Multiple Files Simultaneously
+
+✅ 📡 High-Speed File Transfer using **Wi-Fi Direct (P2P)**
+
+✅ 🔵 Bluetooth Device Discovery & Pairing
+
+✅ 📍 Automatic Location Permission & Service Detection
+
+✅ 📶 Automatic Wi-Fi ON/OFF State Detection
+
+✅ 📡 Network Connectivity Monitoring
+
+✅ 🔍 Nearby Device Discovery
+
+✅ 📊 Live Transfer Progress
+
+✅ ⚡ Optimized Large File Transfer
+
+✅ 🎨 Clean Material Design UI
+
+✅ 🏗️ MVVM Architecture
 
 ---
 
-# 📂 Supported File Types
+## 🛠️ Tech Stack
 
-* 🖼️ Images
-* 🎥 Videos
-* 🎵 Audio
-* 📄 PDF & Documents
-* 📦 APK Files
-* 🗜️ ZIP Archives
-* 📁 Folders
-* 📃 Text Files
-* 📊 Office Documents
-* 📂 Other supported file formats
-
----
-
-# 💼 Use Cases
-
-* 📱 Device-to-Device File Sharing
-* 👨‍👩‍👧 Peer-to-Peer Content Transfer
-* 🏢 Enterprise File Distribution
-* 🎓 Educational Resource Sharing
-* 💾 Backup & Restore
-* 📦 APK Distribution
-* 📁 Large Folder Transfers
-* 🚀 Offline File Sharing Without Internet
+| Technology                  | Description                  |
+| --------------------------- | ---------------------------- |
+| 💙 Kotlin                   | Primary Programming Language |
+| 🏗️ MVVM                    | Clean Architecture Pattern   |
+| 💉 Dagger Hilt              | Dependency Injection         |
+| 🧵 Coroutines               | Asynchronous Programming     |
+| 📡 Wi-Fi Direct (P2P)       | High-Speed Offline Transfer  |
+| 🔵 Bluetooth API            | Device Discovery             |
+| 📍 Location Services        | Nearby Device Detection      |
+| 📶 ConnectivityManager      | Wi-Fi & Network Monitoring   |
+| 📂 Storage Access Framework | File & Folder Access         |
+| 📦 Android Jetpack          | Modern Android Components    |
+| 🎨 Material Design          | Beautiful User Interface     |
 
 ---
 
-# 👨‍💻 Author
+## 🔄 Application Workflow
+
+```text
+📱 Launch App
+        │
+        ▼
+📡 Enable Wi-Fi Direct / Bluetooth
+        │
+        ▼
+🔍 Discover Nearby Devices
+        │
+        ▼
+🤝 Connect Devices
+        │
+        ▼
+📂 Select Files / Folders
+        │
+        ▼
+⚡ Transfer Files
+        │
+        ▼
+✅ Transfer Completed
+```
+
+---
+
+## 📂 Supported File Types
+
+🖼️ Images
+
+🎥 Videos
+
+🎵 Audio
+
+📄 PDF
+
+📝 Documents
+
+📊 Excel
+
+📽️ Presentations
+
+📦 APK Files
+
+🗜️ ZIP Files
+
+📁 Complete Folders
+
+📂 Multiple Files
+
+📃 Text Files
+
+📀 Other Supported Formats
+
+---
+
+## 🚀 Highlights
+
+⚡ Offline File Sharing
+
+📡 Wi-Fi Direct (P2P)
+
+🔵 Bluetooth Connectivity
+
+📍 Smart Location Handling
+
+📶 Automatic Wi-Fi State Detection
+
+🔄 Real-Time Connectivity Monitoring
+
+📊 Live Transfer Progress
+
+📁 Folder Sharing
+
+📦 APK Sharing
+
+🚀 High-Speed Transfer
+
+🛡️ Reliable Connection Management
+
+🏗️ Clean & Scalable Architecture
+
+---
+
+## 💼 Use Cases
+
+🏠 Personal File Sharing
+
+👨‍👩‍👧 Family & Friends
+
+🏢 Enterprise File Distribution
+
+🎓 Educational Resource Sharing
+
+📦 APK Distribution
+
+💾 Backup & Restore
+
+📂 Large Folder Transfer
+
+📱 Device-to-Device Migration
+
+🚀 Offline Content Sharing
+
+---
+
+## 👨‍💻 Author
 
 **Mandeep Singh**
 
-Senior Android Developer
+💙 Senior Android Developer
 
-**Core Skills**
+### 🧠 Core Skills
 
-* Android Development
-* Kotlin
-* MVVM Architecture
-* Dagger Hilt
-* Wi-Fi Direct (P2P)
-* Bluetooth
-* Android Networking
-* File Transfer
-* Jetpack Components
-* Performance Optimization
+📱 Android Development • 💙 Kotlin • 🏗️ MVVM • 💉 Dagger Hilt • 📡 Wi-Fi Direct • 🔵 Bluetooth • 📂 File Transfer • ⚡ Coroutines • 📦 Jetpack Components • 🎨 Material Design
 
 ---
 
-⭐ If you found this project useful, consider giving it a **Star** on GitHub.
+<p align="center">
+
+⭐ **If you found this project useful, don't forget to Star the repository!** ⭐
+
+**Happy Coding! 🚀💙**
+
+</p>
